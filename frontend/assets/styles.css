@@ -1,0 +1,106 @@
+.role-card {
+    transition: transform 0.2s;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.gradebook-table td:last-child {
+    white-space: nowrap;
+}
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.role-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: white;
+    text-align: center;
+    color: var(--primary-color);
+    border: 2px solid transparent;
+}
+
+.role-card.active {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.role-card:hover:not(.active) {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.feature-card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.auth-card {
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    opacity: 0.8;
+    display: none;
+}
+
+.scroll-top:hover {
+    opacity: 1;
+}
+
+.footer a:hover {
+    color: var(--secondary-color) !important;
+}
+
+.nav-link.active {
+    color: var(--secondary-color) !important;
+    font-weight: 600;
+}
+.schedule-day {
+    transition: transform 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.schedule-day:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.course-slot {
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+    border-left: 4px solid var(--primary-color);
+}

@@ -214,6 +214,6 @@ docker-compose logs -f --tail=100
 
 ---
 
-💻 **Développé par** : Groupe INGE 3 SRT FR - Institut Saint Jean Ingénieur
+💻 **Développé par** :  - Institut Saint Jean Ingénieur
 📧 **Contact** : [support@institutsaintjean.org](mailto:support@institutsaintjean.org)
 🌍 **Site Web** : [https://www.institutsaintjean.org](https://www.institutsaintjean.org)
